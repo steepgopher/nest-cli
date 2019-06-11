@@ -1,5 +1,5 @@
 {
-  "name": "nestjs-command",
+  "name": "nest-cli",
   "version": "1.1.1",
   "description": "nest.js command tool",
   "main": "index.js",
@@ -35,7 +35,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://gitlab.com/aa900031/nestjs-command.git"
+    "url": "https://github.com/steepgopher/nest-cli.git"
   },
   "keywords": [
     "nestjs",
