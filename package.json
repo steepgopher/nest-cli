@@ -1,5 +1,5 @@
 {
-  "name": "nest-cli",
+  "name": "nest-cli-command",
   "version": "1.1.1",
   "description": "nest.js command tool",
   "main": "index.js",
