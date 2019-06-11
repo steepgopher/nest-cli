@@ -1,0 +1,45 @@
+{
+  "name": "nestjs-command",
+  "version": "1.1.1",
+  "description": "nest.js command tool",
+  "main": "index.js",
+  "author": "zhong666<aa900031@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "rimraf dist && tsc",
+    "format": "prettier lib/**/*.ts --write",
+    "prepublish": "npm run build"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "yargs": "^12.0.1"
+  },
+  "bin": {
+    "nestjs-command": "./bin/cli"
+  },
+  "devDependencies": {
+    "@nestjs/common": "^6.0.5",
+    "@nestjs/core": "^6.0.5",
+    "@types/lodash": "^4.14.123",
+    "@types/node": "^10.3.5",
+    "@types/yargs": "^11.1.1",
+    "fastify-swagger": "^0.15.0",
+    "prettier": "^1.14.2",
+    "reflect-metadata": "^0.1.12",
+    "rimraf": "^2.6.2",
+    "typescript": "^2.6.2"
+  },
+  "peerDependencies": {
+    "@nestjs/common": "^6.0.0",
+    "@nestjs/core": "^6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/aa900031/nestjs-command.git"
+  },
+  "keywords": [
+    "nestjs",
+    "command",
+    "cli"
+  ]
+}
